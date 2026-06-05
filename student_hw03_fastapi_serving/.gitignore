@@ -1,5 +1,14 @@
+# Python cache
 __pycache__/
 *.pyc
-.env
-.mlflow/
+
+# Virtual env
 venv/
+.env
+
+# MLflow local cache
+.mlflow/
+
+# OS files
+.DS_Store
+Thumbs.db
