@@ -1,0 +1,30 @@
+{
+  "feature_columns": [
+    "room_type",
+    "property_type",
+    "neighbourhood_name",
+    "accommodates",
+    "bedrooms",
+    "beds",
+    "bathrooms",
+    "listing_price",
+    "minimum_nights",
+    "maximum_nights",
+    "instant_bookable",
+    "host_is_superhost",
+    "host_listing_count",
+    "total_reviews_before_cutoff",
+    "unique_reviewers_before_cutoff",
+    "avg_comment_len_before_cutoff",
+    "max_comment_len_before_cutoff",
+    "days_since_last_review",
+    "available_days_last_90d",
+    "available_rate_last_90d",
+    "avg_minimum_nights_calendar_last_90d",
+    "avg_maximum_nights_calendar_last_90d",
+    "available_days_last_30d",
+    "available_rate_last_30d",
+    "avg_minimum_nights_calendar_last_30d",
+    "avg_maximum_nights_calendar_last_30d"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "forbidden_fields": [
+    "listing_id",
+    "cutoff_date",
+    "dataset_version",
+    "future_calendar_days_observed_30d",
+    "future_available_days_30d",
+    "future_available_rate_30d",
+    "high_demand_proxy"
+  ]
+}

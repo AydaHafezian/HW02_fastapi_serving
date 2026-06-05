@@ -1,0 +1,187 @@
+{
+  "duplicate_listing_cutoff_rows": 0,
+  "missing_target_count": 0,
+  "target_values": [
+    0,
+    1
+  ],
+  "present_forbidden_columns": [],
+  "future_leakage_columns_in_model_inputs": [],
+  "model_input_column_count": 25,
+  "missing_report": [
+    {
+      "column": "beds",
+      "missing_rate": 0.4366412213740458
+    },
+    {
+      "column": "bedrooms",
+      "missing_rate": 0.02919847328244275
+    },
+    {
+      "column": "is_superhost",
+      "missing_rate": 0.01097328244274809
+    },
+    {
+      "column": "bathrooms",
+      "missing_rate": 0.0011450381679389313
+    },
+    {
+      "column": "accommodates",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "property_type",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "room_type",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "listing_id",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "minimum_nights",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "maximum_nights",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "instant_bookable",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "host_listing_count",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "neighbourhood_name",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "total_reviews_before_cutoff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "unique_reviewers_before_cutoff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "avg_comment_len_before_cutoff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "max_comment_len_before_cutoff",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "days_since_last_review",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "available_days_last_90d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "available_rate_last_90d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "avg_minimum_nights_calendar_last_90d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "avg_maximum_nights_calendar_last_90d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "available_days_last_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "available_rate_last_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "avg_minimum_nights_calendar_last_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "avg_maximum_nights_calendar_last_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "future_calendar_days_observed_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "future_available_days_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "future_available_rate_30d",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "high_demand_proxy",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "cutoff_date",
+      "missing_rate": 0.0
+    },
+    {
+      "column": "dataset_version",
+      "missing_rate": 0.0
+    }
+  ],
+  "label_distribution": [
+    {
+      "high_demand_proxy": 1,
+      "count": 7994,
+      "percentage": 0.7628
+    },
+    {
+      "high_demand_proxy": 0,
+      "count": 2486,
+      "percentage": 0.2372
+    }
+  ],
+  "calendar_coverage_summary": [
+    {
+      "index": "count",
+      "future_calendar_days_observed_30d": 10480.0
+    },
+    {
+      "index": "mean",
+      "future_calendar_days_observed_30d": 30.0
+    },
+    {
+      "index": "std",
+      "future_calendar_days_observed_30d": 0.0
+    },
+    {
+      "index": "min",
+      "future_calendar_days_observed_30d": 30.0
+    },
+    {
+      "index": "25%",
+      "future_calendar_days_observed_30d": 30.0
+    },
+    {
+      "index": "50%",
+      "future_calendar_days_observed_30d": 30.0
+    },
+    {
+      "index": "75%",
+      "future_calendar_days_observed_30d": 30.0
+    },
+    {
+      "index": "max",
+      "future_calendar_days_observed_30d": 30.0
+    }
+  ]
+}

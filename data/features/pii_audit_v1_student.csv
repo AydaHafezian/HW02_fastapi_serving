@@ -1,0 +1,10 @@
+table,column,pii_type,decision,reason
+listing,listing_id,entity identifier,keep as entity key only,needed to define one row per listing; not a model input
+listing,host_id,direct identifier / join key,drop from final dataset,used only for joins and host-level aggregation
+host,host_pseudo_id,pseudonymous identifier,drop from final dataset,identity-linking column; not needed as a model feature
+listing,license,regulated / sensitive identifier,drop from final dataset,may expose regulated registration details
+review,review_id,record identifier,drop from final dataset,not useful as an ML feature
+review,reviewer_id,user identifier,drop from final dataset,identity-linking and not needed in final feature table
+review,reviewer_pseudo_id,pseudonymous user identifier,drop from final dataset,identity-linking and not needed in final feature table
+review,comments,raw free text,drop from final dataset,raw text may contain personal or sensitive information
+listing,bathrooms_text,raw text,transform then drop raw column,"convert to numeric bathrooms feature, do not keep raw text"
